@@ -1,5 +1,5 @@
 {
-  "name": "noweh/twitter-api-v2-php",
+  "name": "hexis-hr/twitter-api-v2-php",
   "description": "This library provide methods for sending messages to Twitter and receiving statuses.",
   "keywords": [
     "twitter",
