@@ -30,7 +30,5 @@
     "psr-4": {
       "Noweh\\TwitterApi\\": "src/"
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
