@@ -69,6 +69,8 @@ class UserSearch extends AbstractController
             $endpoint .= '/' . $this->idOrUsername;
         }
 
+        $endpoint .= "?user.fields=name,profile_image_url,username";
+
         return $endpoint;
     }
 }
