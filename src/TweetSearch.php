@@ -236,7 +236,7 @@ class TweetSearch extends AbstractController
         }
 
         if ($this->addMetrics) {
-            $endpoint .= '&tweet.fields=public_metrics';
+            $endpoint .= '&tweet.fields=public_metrics,created_at';
         }
 
         $endpoint .= '&expansions=attachments.media_keys';
